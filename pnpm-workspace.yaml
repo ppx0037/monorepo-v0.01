@@ -1,0 +1,7 @@
+packages:
+  # 公共部分
+  - 'packages/*'
+  # 业务子仓库
+  - 'plugins/*'
+    # 模块
+  - 'modules/*'x

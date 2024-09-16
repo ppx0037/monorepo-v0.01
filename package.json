@@ -1,0 +1,16 @@
+{
+  "name": "@nibfe/plugins",
+  "version": "1.0.0",
+  "description": "The JavaScript template",
+  "scripts": {
+    "test:code-editor": "pnpm --filter @nibfe/code-editor test",
+    "test:dsl-checker": "pnpm --filter @nibfe/dsl-checker test",
+    "test:dsl-chat-bot": "pnpm --filter @nibfe/chat-bot test"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0"
+  },
+  "keywords": ["css", "javascript"]
+}
